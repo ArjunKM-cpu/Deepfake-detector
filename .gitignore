@@ -1,0 +1,32 @@
+# Byte-compiled / Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.venv
+venv/
+ENV/
+env/
+
+# PyTorch Checkpoints & Outputs
+models/*.pth
+!models/.gitkeep
+evaluation_results/
+grad_cam_overlay.png
+
+# Data files (keep folder structure)
+dataset/train/real/*
+dataset/train/fake/*
+dataset/validation/real/*
+dataset/validation/fake/*
+dataset/test/real/*
+dataset/test/fake/*
+!dataset/**/.gitkeep
+
+# Operating System & IDEs
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
